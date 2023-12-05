@@ -1,0 +1,43 @@
+li {
+  list-style: none;
+
+  /* Flexbox */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  margin: 10px;
+}
+
+.thumbnail {
+  max-width: 150px;
+  margin: 10px;
+}
+
+.video-text {
+  display: flex;
+  flex-direction: column;
+}
+
+li h2 {
+  font-size: medium;
+}
+
+.description {
+  font-size: smaller;
+  max-height: 2em;
+
+  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.stats {
+  font-size: smaller;
+  max-height: 1em;
+
+  color: gray;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
